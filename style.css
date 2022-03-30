@@ -4,13 +4,24 @@ body{
 
 .header {
     background: #1F2937;
+    displays: flex;
 }
 
 .header-top,
 .header-bottom {
-    color: white
+    color: white;
+    display:flex;
 }
 
 .title{
     font-size: 48px
+}
+
+.text {
+    display:flex;
+    flex-direction:column;
+}
+
+.header-top {
+    justify-content: space-around;
 }
