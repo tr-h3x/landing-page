@@ -1,0 +1,16 @@
+body{
+
+}
+
+.header {
+    background: #1F2937;
+}
+
+.header-top,
+.header-bottom {
+    color: white
+}
+
+.title{
+    font-size: 48px
+}
