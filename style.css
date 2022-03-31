@@ -34,10 +34,23 @@ body{
     background-color: blue;
     width: 100px;
     align-self: flex-start;
+    border-radius: 10px;
+    border: none;
+    color: white;
 }
 
 img {
     border-radius: 20px;
     margin-bottom: 50px;
 
+}
+
+.logo,
+.links {
+    margin-top: 20px;
+}
+
+a {
+    color: #e5e7eb;
+    text-decoration: none;
 }
