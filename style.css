@@ -5,12 +5,15 @@ body{
 .header {
     background: #1F2937;
     displays: flex;
+    
 }
 
 .header-top,
 .header-bottom {
     color: white;
     display:flex;
+    justify-content: space-around;
+    margin: 50px
 }
 
 .title{
@@ -20,8 +23,21 @@ body{
 .text {
     display:flex;
     flex-direction:column;
+    justify-content:spac
 }
 
 .header-top {
-    justify-content: space-around;
+    
+}
+
+.button {
+    background-color: blue;
+    width: 100px;
+    align-self: flex-start;
+}
+
+img {
+    border-radius: 20px;
+    margin-bottom: 50px;
+
 }
