@@ -54,3 +54,37 @@ a {
     color: #e5e7eb;
     text-decoration: none;
 }
+
+.body {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 25px;
+}
+
+.tag {
+    color: #1F2937;
+    display: flex;
+    font-size: 24px;
+    justify-content:center;
+}
+
+.img1 {
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+
+.img2 {
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+}
+.img3 {
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+}
+.img4 {
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+}
